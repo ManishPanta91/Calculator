@@ -12,6 +12,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    color:rgb(197, 64, 30);
 }
 body{
     height: 100vh;
