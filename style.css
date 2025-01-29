@@ -69,7 +69,7 @@ button{
 .operator{
     color:rgb(128, 0, 0);
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 970px) {
    .calculator{
      padding:1px;
 
