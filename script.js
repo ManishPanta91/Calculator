@@ -15,6 +15,14 @@ buttons.forEach((button) => {
             } catch {
                 input.value = "Error";
             }
+        }else if (buttonText === "=") {
+                try {
+                    input.value = input.value.replace("%", 100);
+                    input.value = eval(input.value);
+                } catch {
+                    input.value = "Error";
+                }
+
         } else {
             input.value += buttonText;
         }
